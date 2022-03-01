@@ -1,0 +1,113 @@
+html{
+  background-color: #171717;
+
+}
+*{
+  animation: fadein 1s;
+}
+h1{
+  color: white;
+}
+p{
+  color: whitesmoke;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.par1{
+  padding: 10px;
+  background-color: #890620;
+  margin: 10px;
+  border-radius: 5px;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 10px;
+}
+
+ul.topnav li {float: left;}
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #890620;}
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul.topnav li.right {float: right;}
+
+
+.tits{
+  
+  height: 200px;
+  position: relative;
+/*   border: 3px solid green; */
+
+}
+
+.tit{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);}
+}
+
+
+/* @keyframes bgani{
+  from {background-image: url("https://www.awardsdaily.com/wp-content/uploads/2019/06/Handmaids-Tale-Season-3-750x375.jpg");}
+  to {background-image: url("https://i.insider.com/5d9620ca9b46992599462e37?width=1000&format=jpeg&auto=webp");}
+} */
+@keyframes bgani{
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+
+.bg1{
+    background-image: url("https://www.awardsdaily.com/wp-content/uploads/2019/06/Handmaids-Tale-Season-3-750x375.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.bg2{
+  background-image: url("thewall.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.bg3{
+  background-image: url("https://i.insider.com/5d9620ca9b46992599462e37?width=1000&format=jpeg&auto=webp");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.bg4{
+  background-image: url("https://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/elle/2018/05/10/1525937292047_ELLEHANDMAIDSGileadGUARDS.jpg?width=963&height=&mode=crop&anchor=topcenter&quality=75");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+@keyframes fadein{
+  from{opacity:0;}
+  to{opacity:1;}
+}
