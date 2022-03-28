@@ -12,7 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['Boys Will Be Boys - Dua Lipa', 'you should see me in a crown - Billie Eilish', 'Nothing New - Taylor Swift'];
+const songs = ['Bad Reputation - Joan Jett', 'Dangerous Woman - Ariana Grande', 'Salute - Little Mix', 'Unstoppable - Sia'];
 
 // Keep track of song
 let songIndex = 2;
